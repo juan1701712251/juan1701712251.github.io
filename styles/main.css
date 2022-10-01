@@ -1,0 +1,182 @@
+/* Carousel */
+.first, .second, .three{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first{
+    background-image: url('/images/platzi_badges.png'); 
+}
+
+.second{
+    background-image: url('/images/cobaep_login.png');
+}
+
+.three{
+    background-image: url('/images/facebook-clone.png');
+    background-position: top;
+}
+
+.carousel .indicators .indicator-item{
+    background-color: cadetblue;
+}
+
+.carousel.carousel-slider .carousel-item h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* Carousel fin */
+
+/* Cards */
+.card{
+    min-height: 304px;
+}
+
+/* /cards */
+
+/* Footer */
+
+footer li.row{
+    margin: 10px;
+}
+
+footer li.row a{
+    margin-left: 15px;
+}
+
+/* /footer */
+
+/* Fin del portafolio */
+
+/* Inico de Sobremi.html */
+
+.personal--description__title h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.personal--description__image img{
+    margin: 30px 0;
+    max-width: 250px;
+}
+
+
+.contacto{
+    margin-bottom: 40px;
+}
+
+.personal--description__image img{
+    height: 200px;
+    width: 200px;
+}
+
+.educacion--tecnologias__tec{
+    width: 200px;
+}
+
+/* Final de sobremi */
+
+/* Contacto */
+
+.contacto--card.twitter, .contacto--card.github{
+    margin-right: 30px;
+}
+
+.contacto--card.twitter, .contacto--card.gmail{
+    margin-top: 30px;
+
+}
+
+.contacto--card.github, .contacto--card.linkedin{
+    margin-top: 20px;
+}
+
+.contacto--card{
+    display: flex;
+    min-height: 110px;   
+}
+
+.contacto--card__Nombre{
+    margin-bottom: 20px;
+}
+
+.contacto--card img{
+    margin: 10px 30px 0;
+    height: 80px;
+}
+
+.chat img{
+    height: 300px;
+}
+
+/* /Contacto */
+
+/* Certificaciones */
+
+.certificates--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 270px;
+    height: 240px;
+}
+
+.certificates--container img{
+    height: 120px;
+}
+
+
+
+.certificates--badges__collection{
+    margin-left: 8px;
+    height: 311px;
+    width: 200px;
+}
+
+.certificates--badges__collection-li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificates--badges__collection-li img{
+    height: 140px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.title_large{
+    font-size: 20px;
+}
+
+.certificates{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px){
+    .certificates{
+        width: 99vw;
+    }
+    .certificates--container{
+        width: 230px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .collection.col.certificates--badges__collection{
+        margin-left: 17%;
+    }
+    .certificates--badges__titles{
+        margin: 0;
+        padding: 0;
+    }
+    .educacion--tecnologias__tec{
+        max-width: 160px;
+    }
+}
+
+/* /Certificaciones  */
